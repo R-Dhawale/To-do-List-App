@@ -1,53 +1,93 @@
-# To-do List App
+# 📝 To-Do App
 
-A clean, aesthetic, and studious to-do list web application built with HTML, CSS, and JavaScript.
+A modern, minimal, and beautiful To-Do application built with **Node.js**, **Express**, and vanilla **JavaScript**.  
+Easily manage your daily tasks with a clean and responsive interface.
 
-## Features
-
-- **Add, check, and remove tasks**  
-  Easily manage your daily tasks with a simple interface.
-
-- **Persistent storage**  
-  Your tasks are saved in your browser (localStorage), so they remain after refreshing.
-
-- **Responsive and modern design**  
-  Looks great on desktop and mobile, with a focus on readability and productivity.
-
-- **Aesthetic & studious theme**  
-  Soft colors, subtle shadows, and a professional layout for a focused experience.
-
-- **Footer credit**  
-  Includes a copyright:  
-  `© 2025 — Made by Rushikesh Dhawale`
-
-## Getting Started
-
-1. **Clone or download this repository.**
-2. Place your icon at `assests/icon.png` (or update the path in `index.html`).
-3. Open `index.html` in your browser.
-
-## File Structure
-
-```
-todo-app/
-├── assests/
-│   └── icon.png
-├── index.html
-├── style.css
-└── script.js
-```
-
-## Customization
-
-- **Change the app name:**  
-  Edit the `<title>` in `index.html` and the `<h2>` heading.
-- **Change the accent color or theme:**  
-  Edit the CSS variables in `style.css` under `:root`.
-
-## License
-
-This project is for personal and educational use.
+![To-Do App Screenshot](https://github.com/user-attachments/assets/daa1785b-cb7e-4ab2-bcb4-e61df32c1b6f) <!-- Replace with your screenshot URL -->
 
 ---
 
-**© 2025 — Made by Rushikesh Dhawale**
+## 🚀 Live Demo
+
+**Check out the deployed app:**  
+[Deploy Link](https://to-do-app-hazel-eight.vercel.app/)
+
+---
+
+## ✨ Features
+
+- Add, complete, and delete tasks instantly
+- Sleek, responsive, and professional UI
+- Persistent backend with RESTful API
+- Built with Express and vanilla JS (no frameworks)
+- Easy to deploy and customize
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-github-username/todo-app.git
+cd todo-app
+npm install
+node server.js
+```
+
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Node.js, Express
+- **Frontend:** HTML5, CSS3, JavaScript (ES6)
+- **Data:** In-memory (easy to extend to file or database)
+
+---
+
+## 📁 Project Structure
+
+```
+todo-app/
+│
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── data/
+│   └── todos.json
+├── server.js
+└── README.md
+```
+
+---
+
+## 🌐 Deployment
+
+You can deploy this app easily on platforms like **Vercel**, **Render**, or **Glitch**.
+
+> **Deploy Link:**  
+> https://to-do-app-hazel-eight.vercel.app/
+
+---
+
+## 📸 Screenshots
+
+<!-- Add your screenshots here -->
+![Screenshot 1](![image](https://github.com/user-attachments/assets/a9e6986b-c246-48b6-a8ee-eb6feebf4a0f)
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+[MIT](LICENSE)
+
+---
+
+> _Made with ❤️ by [Rushikesh Dhawale](https://github.com/R-Dhawale)_
